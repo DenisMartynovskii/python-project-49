@@ -8,4 +8,5 @@ install:
 
 before_install:
   - pip install poetry
+  - poetry install
 
