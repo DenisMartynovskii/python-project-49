@@ -11,6 +11,3 @@ python:
 install:
   - make lint
 
-# command to run tests
-script:
-  - pytest
