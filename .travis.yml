@@ -6,6 +6,5 @@ python:
 install:
   - make lint
 
-before_install:
-  cd /home/nick/python-project-lvl1/
+
 
