@@ -6,5 +6,6 @@ python:
 install:
   - make lint
 
-
+before_install:
+  - pip install poetry
 

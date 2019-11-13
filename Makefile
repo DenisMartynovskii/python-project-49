@@ -1,7 +1,10 @@
 all: install 
 
+
 install:
 	@poetry install
+
+lint: install
 
 run:
 	@poetry run brain-games
