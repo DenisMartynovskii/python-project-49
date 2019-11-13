@@ -1,4 +1,4 @@
- import prompt
+import prompt
 
 
 def run():
