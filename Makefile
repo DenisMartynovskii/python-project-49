@@ -8,7 +8,10 @@ install:
 run:
 	@poetry run brain-games
 
-lint: install
+lint: 
 	@poetry run flake8 brain_games
+
+format:
+	@black brain_games
 
 .PHONY: all configure test lint selfcheck check build install
