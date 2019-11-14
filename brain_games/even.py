@@ -27,4 +27,5 @@ def honesty_test():
             )
             print("Let's try again, {}!".format(user_name))
             break
+    else:
         print("Congratulations, {}!".format(user_name))
