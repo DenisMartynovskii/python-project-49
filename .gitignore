@@ -1,4 +1,5 @@
 *.egg-info
+*brain_games.egg-info/
 __pycache__
 *__pycache__
 dist/
