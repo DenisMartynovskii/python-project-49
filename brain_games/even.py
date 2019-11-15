@@ -1,39 +1,23 @@
 from random import randint
-from brain_games import cli
+from brain_games.templates import flow_game, greet_user
 
 
-def greet_user():
-    print(cli.greeting)
-    print('Answer "yes" if number even otherwise answer "no".', end="\n\n")
+def generate_random():
+    random_item = randint(0, 100)
+    return random_item
 
 
-def begin_game(user_name):
-    successful_tries = 3
-    while successful_tries > 0:
-        random_number = randint(1, 100)
-        print("Question: ", str(random_number))
-        user_ask = input("Your answer: ")
-        check_even = is_even(random_number)
-        if check_even == user_ask:
-            print("Correct!")
-            successful_tries -= 1
-        else:
-            print(
-                "'{}' is wrong answer ;(. Correct answer was '{}'.".format(
-                    user_ask, check_even
-                )
-            )
-            print("Let's try again, {}!".format(user_name))
-            break
-    else:
-        print("Congratulations, {}!".format(user_name))
-
-
-def is_even(num):
+def get_expression_result(num):
     return "yes" if (num % 2 == 0) else "no"
 
 
-def run_brain_even():
-    greet_user()
-    user_name = cli.run()
-    begin_game(user_name)
+def get_result():
+    random_num = generate_random()
+    result = get_expression_result(random_num)
+    print("Question: ", random_num)
+    return result
+
+
+def run_game():
+    name = greet_user('Answer "yes" if number even otherwise answer "no".')
+    flow_game(get_result, name)
