@@ -3,4 +3,4 @@
 
 [![Build Status](https://travis-ci.org/Nikolaytk87/python-project-lvl1.svg?branch=master)](https://travis-ci.org/Nikolaytk87/python-project-lvl1)
 
-<a href="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2?autoplay=1" preload="1"  target="_blank" ><img src="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2.svg" width="400" height="400" /></a>
+<a href="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2?autoplay=1" col="800" row="400"  target="_blank"><img src="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2.svg" width="856"/></a>
