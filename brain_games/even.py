@@ -2,14 +2,12 @@ from random import randint
 from brain_games import cli
 
 
-def is_even(num):
-    return "yes" if (num % 2 == 0) else "no"
-
-
-def honesty_test():
+def greet_user():
     print(cli.greeting)
     print('Answer "yes" if number even otherwise answer "no".', end="\n\n")
-    user_name = cli.run()
+
+
+def begin_game(user_name):
     successful_tries = 3
     while successful_tries > 0:
         random_number = randint(1, 100)
@@ -29,3 +27,13 @@ def honesty_test():
             break
     else:
         print("Congratulations, {}!".format(user_name))
+
+
+def is_even(num):
+    return "yes" if (num % 2 == 0) else "no"
+
+
+def run_brain_even():
+    greet_user()
+    user_name = cli.run()
+    begin_game(user_name)
