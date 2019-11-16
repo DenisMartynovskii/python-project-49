@@ -1,4 +1,5 @@
 from random import randint
+
 from brain_games.templates import flow_game, greet_user
 
 
