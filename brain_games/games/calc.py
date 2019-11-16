@@ -28,5 +28,5 @@ def get_result():
 
 
 def run_game():
-    user_name = greet_user("What is the result of the expression?")
-    flow_game(get_result, user_name)
+    name = greet_user("What is the result of the expression?")
+    flow_game(get_result, name)

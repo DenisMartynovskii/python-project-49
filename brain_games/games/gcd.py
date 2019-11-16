@@ -8,10 +8,10 @@ def generate_random():
 
 
 def get_expression_result(items):
-    min_num,max_num = min(items),max(items)
+    min_num, max_num = min(items), max(items)
     index = min_num
     while index > 0:
-        if max_num % index == 0 and  min_num % index==0:
+        if max_num % index == 0 and min_num % index == 0:
             return index
         index -= 1
 
@@ -24,5 +24,5 @@ def get_result():
 
 
 def run_game():
-    user_name = greet_user("Find the greatest common divisor of given numbers.")
-    flow_game(get_result, user_name)
+    name = greet_user("Find the greatest common divisor of given numbers.")
+    flow_game(get_result, name)
