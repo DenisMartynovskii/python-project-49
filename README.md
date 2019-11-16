@@ -3,6 +3,6 @@
 
 [![Build Status](https://travis-ci.org/Nikolaytk87/python-project-lvl1.svg?branch=master)](https://travis-ci.org/Nikolaytk87/python-project-lvl1)
 
-<a href="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2?t=8?autoplay=1" target="_blank"><img src="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2.svg" height="400" /></a>
+<a href="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2?t=8?autoplay=1" target="_blank"><img src="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2.svg"  /></a>
 
-<a href="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u?autoplay=1" target="_blank"><img src="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u.svg" height="400" /></a>
+<a href="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u?autoplay=1" target="_blank"><img src="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u.svg"  /></a>
