@@ -6,13 +6,13 @@ def generate_random():
     start, step, cut = choices(range(1, 10), k=3)
     end = start + (10 * step)
     random_items = list(range(start, end, step))
-    return random_items,cut-1
+    return random_items, cut - 1
 
 
 def get_expression_result(sequence, cut):
     result = sequence.pop(cut)
     sequence.insert(cut, "..")
-    sequence = ' '.join([str(i) for i in sequence])
+    sequence = " ".join([str(i) for i in sequence])
     return sequence, result
 
 
