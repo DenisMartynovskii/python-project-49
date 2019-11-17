@@ -24,5 +24,6 @@ def get_result():
 
 
 def run_game():
-    name = greet_user("Find the greatest common divisor of given numbers.")
+    case = "Find the greatest common divisor of given numbers."
+    name = greet_user(case)
     flow_game(get_result, name)

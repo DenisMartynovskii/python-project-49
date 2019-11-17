@@ -19,5 +19,6 @@ def get_result():
 
 
 def run_game():
-    name = greet_user('Answer "yes" if number even otherwise answer "no".')
+    case = 'Answer "yes" if number even otherwise answer "no".'
+    name = greet_user(case)
     flow_game(get_result, name)
