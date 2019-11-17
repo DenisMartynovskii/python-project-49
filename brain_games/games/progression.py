@@ -6,20 +6,25 @@ def generate_random():
     start, step, cut = choices(range(1, 10), k=3)
     end = start + (10 * step)
     random_items = list(range(start, end, step))
-    return random_items, cut - 1
+    return random_items, cut -1
 
 
-def get_expression_result(sequence, cut):
-    result = sequence.pop(cut)
-    sequence.insert(cut, "..")
-    sequence = " ".join([str(i) for i in sequence])
-    return sequence, result
+def get_expression_result(items):
+    sequence, cut = items
+    progression = ""
+    for index, element in enumerate(sequence):
+        if index == cut:
+            result = element
+            progression += " .."
+        else:
+            progression += " " + str(element)
+    return progression, result
 
 
 def get_result():
     (sequence, cut) = generate_random()
-    progression, empty = get_expression_result(sequence, cut)
-    print("Question :", progression)
+    progression, empty = get_expression_result((sequence, cut))
+    print("Question:", progression)
     return empty
 
 
