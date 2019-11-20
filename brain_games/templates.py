@@ -11,14 +11,15 @@ def greet_user(case):
 
 def flow_game(get_result, user_name):
     for tries in range(3):
-        result = get_result()
+        question,answer = get_result()
+        print(question)
         user_ask = input("Your answer: ")
-        if str(result) == user_ask:
+        if str(answer) == user_ask:
             print("Correct!")
         else:
             print(
                 "'{}' is wrong answer ;(. Correct answer was '{}'.".format(
-                    user_ask, result
+                    user_ask, answer
                 )
             )
             print("Let's try again, {}!".format(user_name))

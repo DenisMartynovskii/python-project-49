@@ -23,9 +23,9 @@ def get_expression_result(items):
 
 def get_result():
     (sequence, cut) = generate_random()
-    progression, empty = get_expression_result((sequence, cut))
-    print("Question:", progression)
-    return empty
+    progression, answer = get_expression_result((sequence, cut))
+    question = "Question: {}".format(progression)
+    return question, answer
 
 
 def run_game():

@@ -19,9 +19,9 @@ def get_expression_result(num):
 
 def get_result():
     random_num = generate_random()
-    result = get_expression_result(random_num)
-    print("Question: ", random_num)
-    return result
+    answer = get_expression_result(random_num)
+    question = "Question: {}".format(random_num)
+    return question, answer
 
 
 def run_game():
