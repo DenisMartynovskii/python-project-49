@@ -9,19 +9,19 @@ def generate_random():
     return random_item
 
 
-def get_expression_result(num):
+def is_prime(num):
     index = num
     count = 0
     while index > 0:
         if num % index == 0:
             count += 1
         index -= 1
-    return "yes" if count == 2 else "no"
+    return True if count == 2 else False
 
 
 def get_result():
     random_num = generate_random()
-    answer = get_expression_result(random_num)
+    answer = "yes" if is_prime(random_num) else "no"
     question = "Question: {}".format(random_num)
     return question, answer
 
