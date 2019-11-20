@@ -3,10 +3,10 @@ from brain_games.templates import flow_game, greet_user
 
 
 def is_even():
-    random_num = randint(0, 100)
-    result = "yes" if (random_num % 2 == 0) else "no"
-    print("Question: ", random_num)
-    return result
+    question = randint(0, 100)
+    answer = "yes" if (question % 2 == 0) else "no"
+    print("Question: ", question)
+    return answer
 
 
 def run_game():
