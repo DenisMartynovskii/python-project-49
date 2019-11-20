@@ -11,7 +11,7 @@ def greet_user(case):
 
 def flow_game(get_result, user_name):
     for tries in range(3):
-        question,answer = get_result()
+        question, answer = get_result()
         print(question)
         user_ask = input("Your answer: ")
         if str(answer) == user_ask:

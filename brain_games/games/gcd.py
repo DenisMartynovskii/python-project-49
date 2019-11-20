@@ -1,6 +1,8 @@
 from random import choices
 from brain_games.templates import flow_game, greet_user
 
+case = "Find the greatest common divisor of given numbers."
+
 
 def generate_random():
     random_items = choices(range(1, 30), k=2)
@@ -19,11 +21,10 @@ def get_expression_result(items):
 def get_result():
     (num_1, num_2) = generate_random()
     answer = get_expression_result((num_1, num_2))
-    question ="Question: {} {}".format(num_1, num_2)
+    question = "Question: {} {}".format(num_1, num_2)
     return question, answer
 
 
 def run_game():
-    case = "Find the greatest common divisor of given numbers."
     name = greet_user(case)
     flow_game(get_result, name)

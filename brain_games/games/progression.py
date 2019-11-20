@@ -1,6 +1,8 @@
 from random import choices
 from brain_games.templates import flow_game, greet_user
 
+case = "What number is missing in the progression?"
+
 
 def generate_random():
     start, step, cut = choices(range(1, 10), k=3)
@@ -29,6 +31,5 @@ def get_result():
 
 
 def run_game():
-    case = "What number is missing in the progression?"
     name = greet_user(case)
     flow_game(get_result, name)

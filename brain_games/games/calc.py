@@ -1,6 +1,8 @@
 from random import choice, choices
 from brain_games.templates import flow_game, greet_user
 
+case = "What is the result of the expression?"
+
 
 def generate_random():
     random_items = choices(range(1, 30), k=2)
@@ -28,6 +30,5 @@ def get_result():
 
 
 def run_game():
-    case = "What is the result of the expression?"
     name = greet_user(case)
     flow_game(get_result, name)
