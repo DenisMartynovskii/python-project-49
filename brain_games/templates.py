@@ -1,15 +1,12 @@
 import prompt
 
 
-def greet_user(case):
+def flow_game(get_result, case):
     print("Welcome to the Brain Games!")
     print(case, end="\n\n")
-    name = prompt.string("May I have your name? ")
-    print("Hello, {}!".format(name))
-    return name
+    user_name = prompt.string("May I have your name? ")
+    print("Hello, {}!".format(user_name))
 
-
-def flow_game(get_result, user_name):
     for tries in range(3):
         question, answer = get_result()
         print(question)

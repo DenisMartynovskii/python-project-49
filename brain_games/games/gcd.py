@@ -1,30 +1,24 @@
 from random import choices
-from brain_games.templates import flow_game, greet_user
+from brain_games.templates import flow_game
 
 case = "Find the greatest common divisor of given numbers."
 
 
-def generate_random():
-    random_items = choices(range(1, 30), k=2)
-    return random_items
-
-
-def get_expression_result(items):
+def get_gcd(items):
     min_num, max_num = min(items), max(items)
-    index = min_num
-    while index > 0:
-        if max_num % index == 0 and min_num % index == 0:
-            return index
-        index -= 1
+    divisor = min_num
+    while divisor > 0:
+        if max_num % divisor == 0 and min_num % divisor == 0:
+            return divisor
+        divisor -= 1
 
 
 def get_result():
-    (num_1, num_2) = generate_random()
-    answer = get_expression_result((num_1, num_2))
-    question = "Question: {} {}".format(num_1, num_2)
+    number_one, number_two = choices(range(1, 30), k=2)
+    answer = get_gcd(number_one, number_two)
+    question = "Question: {} {}".format(number_one, number_two)
     return question, answer
 
 
 def run_game():
-    name = greet_user(case)
-    flow_game(get_result, name)
+    flow_game(get_result, case)

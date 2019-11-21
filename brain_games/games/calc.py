@@ -1,5 +1,5 @@
 from random import choice, choices
-from brain_games.templates import flow_game, greet_user
+from brain_games.templates import flow_game
 
 case = "What is the result of the expression?"
 
@@ -11,7 +11,7 @@ def generate_random():
     return random_items
 
 
-def get_expression_result(items):
+def sum_terms(items):
     num_1, num_2, sign = items
     if sign == "+":
         result = num_1 + num_2
@@ -24,11 +24,10 @@ def get_expression_result(items):
 
 def get_result():
     (num_1, num_2, sign) = generate_random()
-    answer = get_expression_result((num_1, num_2, sign))
+    answer = sum_terms((num_1, num_2, sign))
     question = "Question: {} {} {}".format(num_1, sign, num_2)
     return question, answer
 
 
 def run_game():
-    name = greet_user(case)
-    flow_game(get_result, name)
+    flow_game(get_result, case)

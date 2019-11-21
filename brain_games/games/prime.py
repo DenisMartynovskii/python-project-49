@@ -1,12 +1,7 @@
 from random import randrange
-from brain_games.templates import flow_game, greet_user
+from brain_games.templates import flow_game
 
 case = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-
-
-def generate_random():
-    random_item = randrange(1, 60, 2)
-    return random_item
 
 
 def is_prime(num):
@@ -20,12 +15,11 @@ def is_prime(num):
 
 
 def get_result():
-    random_num = generate_random()
+    random_num = randrange(1, 60, 2)
     answer = "yes" if is_prime(random_num) else "no"
     question = "Question: {}".format(random_num)
     return question, answer
 
 
 def run_game():
-    name = greet_user(case)
-    flow_game(get_result, name)
+    flow_game(get_result, case)

@@ -1,10 +1,10 @@
 from random import randint
-from brain_games.templates import flow_game, greet_user
+from brain_games.templates import flow_game
 
 case = 'Answer "yes" if number even otherwise answer "no".'
 
 
-def is_even():
+def check_even():
     question_digit = randint(0, 100)
     question = "Question: {}".format(question_digit)
     answer = "yes" if (question_digit % 2 == 0) else "no"
@@ -12,5 +12,4 @@ def is_even():
 
 
 def run_game():
-    name = greet_user(case)
-    flow_game(is_even, name)
+    flow_game(check_even, case)
