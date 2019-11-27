@@ -6,12 +6,12 @@ def flow_game(get_result, case):
     print(case, end="\n\n")
     user_name = prompt.string("May I have your name? ")
     print("Hello, {}!".format(user_name))
-
-    for tries in range(3):
+    tries = 3
+    for i in range(tries):
         question, answer = get_result()
-        print(question)
+        print('Question: {}'.format(question))
         user_ask = input("Your answer: ")
-        if str(answer) == user_ask:
+        if answer == user_ask:
             print("Correct!")
         else:
             print(

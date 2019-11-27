@@ -15,9 +15,8 @@ def is_prime(num):
 
 
 def get_result():
-    random_num = randrange(1, 60, 2)
-    answer = "yes" if is_prime(random_num) else "no"
-    question = "Question: {}".format(random_num)
+    question = randrange(1, 60, 2)
+    answer = "yes" if is_prime(question) else "no"
     return question, answer
 
 

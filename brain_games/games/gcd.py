@@ -14,10 +14,9 @@ def get_gcd(items):
 
 
 def get_result():
-    number_one, number_two = choices(range(1, 30), k=2)
-    answer = get_gcd(number_one, number_two)
-    question = "Question: {} {}".format(number_one, number_two)
-    return question, answer
+    question = choices(range(1, 30), k=2)
+    answer = get_gcd(question)
+    return question, str(answer)
 
 
 def run_game():

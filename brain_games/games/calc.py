@@ -3,16 +3,15 @@ from brain_games.templates import flow_game
 
 case = "What is the result of the expression?"
 
+random_sign = choice(["+", "-", "*"])
 
-def generate_random():
+def generate_expression_of_numbers():
     random_items = choices(range(1, 30), k=2)
-    random_sign = choice(["+", "-", "*"])
     random_items.append(random_sign)
     return random_items
 
 
-def sum_terms(items):
-    num_1, num_2, sign = items
+def calculated_expression(num_1, num_2, sign):
     if sign == "+":
         result = num_1 + num_2
     elif sign == "-":
@@ -23,10 +22,10 @@ def sum_terms(items):
 
 
 def get_result():
-    (num_1, num_2, sign) = generate_random()
-    answer = sum_terms((num_1, num_2, sign))
-    question = "Question: {} {} {}".format(num_1, sign, num_2)
-    return question, answer
+    num_1, num_2, sign = generate_expression_of_numbers()
+    answer = calculated_expression(num_1, num_2, sign)
+    question = '{} {} {}'.format(num_1, sign, num_2)
+    return question, str(answer)
 
 
 def run_game():
