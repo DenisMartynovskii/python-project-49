@@ -5,13 +5,14 @@ case = 'Answer "yes" if number even otherwise answer "no".'
 
 
 def is_even(number):
-    return True if (number % 2 == 0) else False
+    return number % 2 == 0
 
-def get_result():
+
+def get_game_results():
     question = randint(0, 100)
-    answer = 'yes' if is_even(question) else 'no' 
+    answer = "yes" if is_even(question) else "no"
     return question, answer
 
 
 def run_game():
-    flow_game(get_result, case)
+    flow_game(get_game_results, case)

@@ -2,14 +2,14 @@ from random import choices
 from brain_games.templates import flow_game
 
 case = "What number is missing in the progression?"
+length = 10
 
 
-def generate_sequence_of_numbers():
-    length = 10
+def generate_sequence_items():
     start, step, cut = choices(range(1, length), k=3)
     end = start + (length * step)
-    random_items = list(range(start, end, step))
-    return random_items, cut - 1
+    sequence = list(range(start, end, step))
+    return sequence, cut - 1
 
 
 def get_progression_items(sequence, cut):
@@ -19,11 +19,11 @@ def get_progression_items(sequence, cut):
     return progression, missing_element
 
 
-def get_result():
-    sequence, cut = generate_sequence_of_numbers()
+def get_game_results():
+    sequence, cut = generate_sequence_items()
     question, answer = get_progression_items(sequence, cut)
     return question, str(answer)
 
 
 def run_game():
-    flow_game(get_result, case)
+    flow_game(get_game_results, case)

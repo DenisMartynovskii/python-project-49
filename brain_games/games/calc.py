@@ -5,6 +5,7 @@ case = "What is the result of the expression?"
 
 random_sign = choice(["+", "-", "*"])
 
+
 def generate_expression_of_numbers():
     random_items = choices(range(1, 30), k=2)
     random_items.append(random_sign)
@@ -21,12 +22,12 @@ def calculated_expression(num_1, num_2, sign):
     return result
 
 
-def get_result():
+def get_game_results():
     num_1, num_2, sign = generate_expression_of_numbers()
     answer = calculated_expression(num_1, num_2, sign)
-    question = '{} {} {}'.format(num_1, sign, num_2)
+    question = "{} {} {}".format(num_1, sign, num_2)
     return question, str(answer)
 
 
 def run_game():
-    flow_game(get_result, case)
+    flow_game(get_game_results, case)

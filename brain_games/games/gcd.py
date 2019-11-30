@@ -4,8 +4,8 @@ from brain_games.templates import flow_game
 case = "Find the greatest common divisor of given numbers."
 
 
-def get_gcd(items):
-    min_num, max_num = min(items), max(items)
+def get_gcd(num1, num2):
+    min_num, max_num = min(num1, num2), max(num1, num2)
     divisor = min_num
     while divisor > 0:
         if max_num % divisor == 0 and min_num % divisor == 0:
@@ -13,11 +13,12 @@ def get_gcd(items):
         divisor -= 1
 
 
-def get_result():
-    question = choices(range(1, 30), k=2)
-    answer = get_gcd(question)
+def get_game_results():
+    num1, num2 = choices(range(1, 30), k=2)
+    question = num1, num2
+    answer = get_gcd(num1, num2)
     return question, str(answer)
 
 
 def run_game():
-    flow_game(get_result, case)
+    flow_game(get_game_results, case)
