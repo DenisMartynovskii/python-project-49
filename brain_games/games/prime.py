@@ -14,11 +14,11 @@ def is_prime(num):
     return count == 2
 
 
-def get_game_results():
+def get_game_components():
     question = randrange(1, 60, 2)
     answer = "yes" if is_prime(question) else "no"
     return question, answer
 
 
 def run_game():
-    flow_game(get_game_results, case)
+    flow_game(get_game_components, case)

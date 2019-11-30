@@ -19,11 +19,11 @@ def get_progression_items(sequence, cut):
     return progression, missing_element
 
 
-def get_game_results():
+def get_game_components():
     sequence, cut = generate_sequence_items()
     question, answer = get_progression_items(sequence, cut)
     return question, str(answer)
 
 
 def run_game():
-    flow_game(get_game_results, case)
+    flow_game(get_game_components, case)
