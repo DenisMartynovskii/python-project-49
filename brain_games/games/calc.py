@@ -22,7 +22,7 @@ def calculated_expression(num_1, num_2, sign):
     return result
 
 
-def get_game_components():
+def get_quiz():
     num_1, num_2, sign = generate_expression_of_numbers()
     answer = calculated_expression(num_1, num_2, sign)
     question = "{} {} {}".format(num_1, sign, num_2)
@@ -30,4 +30,4 @@ def get_game_components():
 
 
 def run_game():
-    flow_game(get_game_components, case)
+    flow_game(get_quiz, case)

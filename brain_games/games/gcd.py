@@ -13,7 +13,7 @@ def get_gcd(num1, num2):
         divisor -= 1
 
 
-def get_game_components():
+def get_quiz():
     num1, num2 = choices(range(1, 30), k=2)
     question = num1, num2
     answer = get_gcd(num1, num2)
@@ -21,4 +21,4 @@ def get_game_components():
 
 
 def run_game():
-    flow_game(get_game_components, case)
+    flow_game(get_quiz, case)
