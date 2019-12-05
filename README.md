@@ -3,7 +3,8 @@
 [![Build Status](https://travis-ci.org/Nikolaytk87/python-project-lvl1.svg?branch=master)](https://travis-ci.org/Nikolaytk87/python-project-lvl1)
 # Набор мини-игр, запускаемых из консоли:
 Установка:
-Установить пакет мини-игр можно следующей командой:
+Установить пакет мини-игр можно следующей командой: 
+
 `pip install -i https://test.pypi.org/simple/ nikolaytk87-brain-games --extra-index-url https://pypi.org/simple/`  
 
 [Игра: "Проверка на четность"](#brain-even)
