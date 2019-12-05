@@ -1,12 +1,18 @@
 <a href="https://codeclimate.com/github/Nikolaytk87/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/d4c57b302dd9b020950b/maintainability" /></a>
 
 [![Build Status](https://travis-ci.org/Nikolaytk87/python-project-lvl1.svg?branch=master)](https://travis-ci.org/Nikolaytk87/python-project-lvl1)
-# Набор мини-игр, запускаемых из консоли
+# Набор мини-игр, запускаемых из консоли:
+
 [Игра: "Проверка на четность"](#brain-even)
+
 [Игра: "Калькулятор"](#brain-calc)
-[ИграЖ "НОД"](#brain-nod)
-[Проверка на четность](#brain-even)
-[Проверка на четность](#brain-even)
+
+[Игра: "НОД"](#brain-nod)
+
+[Игра: "Арифметическая прогрессия"](#brain-progression)
+
+[Игра: "Простое ли число?"](#brain-prime)
+
 <a name="brain-even"></a>
 ## Игра: "Проверка на четность"
 #### В данной игре Вам необходимо правильно ответить четное число или нет.
