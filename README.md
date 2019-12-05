@@ -34,7 +34,7 @@
 
 <a href="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2?t=8?autoplay=1" target="_blank"><img src="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2.svg"  /></a>
 
-
+[вернуться к списку игр](#list_of_games)
 <a name="brain-calc"></a>
 ## Игра "Калькулятор"
 #### В данной игре Вам необходимо посчитать сумму, разницу или произведение двух чисел
@@ -46,9 +46,9 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-[вернуться к списку игр](#list_of_games)
-
 <a href="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u?autoplay=1" target="_blank"><img src="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u.svg"  /></a>
+
+[вернуться к списку игр](#list_of_games)
 
 <a name="brain-nod"></a>
 ## Игра "НОД"
