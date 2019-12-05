@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/Nikolaytk87/python-project-lvl1.svg?branch=master)](https://travis-ci.org/Nikolaytk87/python-project-lvl1)
 # Набор мини-игр, запускаемых из консоли:
 
+<a name="list_of_games"></a>
 Установить пакет мини-игр можно следующей командой: 
 
 `pip install -i https://test.pypi.org/simple/ nikolaytk87-brain-games --extra-index-url https://pypi.org/simple/`  
@@ -31,6 +32,8 @@
 
 <a href="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2?t=8?autoplay=1" target="_blank"><img src="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2.svg"  /></a>
 
+[вернуться к списку игр"](#list_of_games)
+
 <a name="brain-calc"></a>
 ## Игра "Калькулятор"
 #### В данной игре Вам необходимо посчитать сумму, разницу или произведение двух чисел
@@ -43,6 +46,8 @@
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
 <a href="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u?autoplay=1" target="_blank"><img src="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u.svg"  /></a>
+
+[вернуться к списку игр"](#list_of_games)
 
 <a name="brain-nod"></a>
 ## Игра "НОД"
@@ -59,6 +64,8 @@
 
 <a href="https://asciinema.org/a/ldiiCPjHNCSMgCYrNKAkhw5fH?autoplay=1" target="_blank"><img src="https://asciinema.org/a/ldiiCPjHNCSMgCYrNKAkhw5fH.svg" /></a>
 
+[вернуться к списку игр"](#list_of_games)
+
 <a name="brain-progression"></a>
 ## Игра "Арифметическая прогрессия"
 #### В данной игре Вам необходимо определить пропущенное число арифметической прогрессии
@@ -73,6 +80,9 @@
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
 <a href="https://asciinema.org/a/Fle18ccQuiuK0xRYsFGZ47fIk?autoplay=1" target="_blank"><img src="https://asciinema.org/a/Fle18ccQuiuK0xRYsFGZ47fIk.svg" /></a>
+
+
+[вернуться к списку игр"](#list_of_games)
 
 <a name="brain-prime"></a>
 ## Игра "Простое ли число?"
