@@ -22,4 +22,3 @@ def flow_game(get_quiz, case):
             )
             return print("Let's try again, {}!".format(user_name))
     return print("Congratulations, {}!".format(user_name))
-        
