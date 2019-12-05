@@ -1,5 +1,5 @@
 from random import randint
-from brain_games.templates import flow_game
+from brain_games.flow import flow_game
 
 case = 'Answer "yes" if number even otherwise answer "no".'
 

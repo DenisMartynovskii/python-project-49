@@ -1,15 +1,9 @@
 from random import choice, choices
-from brain_games.templates import flow_game
+from brain_games.flow import flow_game
 
 case = "What is the result of the expression?"
 
-random_sign = choice(["+", "-", "*"])
-
-
-def generate_expression_of_numbers():
-    random_items = choices(range(1, 30), k=2)
-    random_items.append(random_sign)
-    return random_items
+sign = choice(["+", "-", "*"])
 
 
 def calculated_expression(num_1, num_2, sign):
@@ -23,9 +17,9 @@ def calculated_expression(num_1, num_2, sign):
 
 
 def get_quiz():
-    num_1, num_2, sign = generate_expression_of_numbers()
-    answer = calculated_expression(num_1, num_2, sign)
-    question = "{} {} {}".format(num_1, sign, num_2)
+    num1, num2 = choices(range(1, 30), k=2)
+    answer = calculated_expression(num1, num2, sign)
+    question = "{} {} {}".format(num1, sign, num2)
     return question, str(answer)
 
 

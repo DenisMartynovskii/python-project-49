@@ -1,5 +1,5 @@
 from random import randrange
-from brain_games.templates import flow_game
+from brain_games.flow import flow_game
 
 case = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
@@ -7,11 +7,11 @@ case = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 def is_prime(num):
     index = 1
     count = 0
-    while index <= num:
+    while index <= num // 2:
         if num % index == 0:
             count += 1
         index += 1
-    return count == 2
+    return count == 1
 
 
 def get_quiz():

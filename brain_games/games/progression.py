@@ -1,5 +1,5 @@
 from random import choices
-from brain_games.templates import flow_game
+from brain_games.flow import flow_game
 
 case = "What number is missing in the progression?"
 length = 10
@@ -13,10 +13,10 @@ def generate_sequence_items():
 
 
 def get_progression_items(sequence, cut):
-    missing_element = sequence.pop(cut)
+    correct_answer = sequence.pop(cut)
     sequence.insert(cut, "..")
     progression = " ".join([str(i) for i in sequence])
-    return progression, missing_element
+    return progression, correct_answer
 
 
 def get_quiz():
