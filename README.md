@@ -1,9 +1,11 @@
 <a href="https://codeclimate.com/github/Nikolaytk87/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/d4c57b302dd9b020950b/maintainability" /></a>
 
 [![Build Status](https://travis-ci.org/Nikolaytk87/python-project-lvl1.svg?branch=master)](https://travis-ci.org/Nikolaytk87/python-project-lvl1)
-# Набор мини-игр, запускаемых из консоли:
 
 <a name="list_of_games"></a>
+
+# Набор мини-игр, запускаемых из консоли:
+
 Установить пакет мини-игр можно следующей командой: 
 
 `pip install -i https://test.pypi.org/simple/ nikolaytk87-brain-games --extra-index-url https://pypi.org/simple/`  
@@ -32,7 +34,6 @@
 
 <a href="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2?t=8?autoplay=1" target="_blank"><img src="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2.svg"  /></a>
 
-[вернуться к списку игр"](#list_of_games)
 
 <a name="brain-calc"></a>
 ## Игра "Калькулятор"
@@ -45,9 +46,9 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u?autoplay=1" target="_blank"><img src="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u.svg"  /></a>
+[вернуться к списку игр](#list_of_games)
 
-[вернуться к списку игр"](#list_of_games)
+<a href="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u?autoplay=1" target="_blank"><img src="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u.svg"  /></a>
 
 <a name="brain-nod"></a>
 ## Игра "НОД"
