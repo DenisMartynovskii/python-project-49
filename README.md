@@ -1,8 +1,14 @@
-# Набор мини-игр, запускаемых из консоли.
 <a href="https://codeclimate.com/github/Nikolaytk87/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/d4c57b302dd9b020950b/maintainability" /></a>
 
 [![Build Status](https://travis-ci.org/Nikolaytk87/python-project-lvl1.svg?branch=master)](https://travis-ci.org/Nikolaytk87/python-project-lvl1)
-## brain-even Игра: "Проверка на четность"
+# Набор мини-игр, запускаемых из консоли
+[Игра: "Проверка на четность"](#brain-even)
+[Игра: "Калькулятор"](#brain-calc)
+[ИграЖ "НОД"](#brain-nod)
+[Проверка на четность](#brain-even)
+[Проверка на четность](#brain-even)
+<a name="brain-even"></a>
+## Игра: "Проверка на четность"
 #### В данной игре Вам необходимо правильно ответить четное число или нет.
 `Четное число - целое число, которое делится на 2 без остатка`
 #### Запустить игру можно из консоли, набрав brain-even
@@ -15,7 +21,8 @@
 
 <a href="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2?t=8?autoplay=1" target="_blank"><img src="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2.svg"  /></a>
 
-## brain-calc Игра "Калькулятор"
+<a name="brain-calc"></a>
+## Игра "Калькулятор"
 #### В данной игре Вам необходимо посчитать сумму, разницу или произведение двух чисел.
 #### Запустить игру можно из консоли, набрав brain-calc
 
@@ -27,7 +34,8 @@
 
 <a href="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u?autoplay=1" target="_blank"><img src="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u.svg"  /></a>
 
-## brain-gcd Игра "НОД"
+<a name="brain-nod"></a>
+## Игра "НОД"
 #### В данной игре Вам необходимо посчитать НОД двух чисел
 `НОД - Наибольший общий делитель двух чисел` 
 #### Запустить игру можно из консоли, набрав brain-gcd
@@ -41,7 +49,8 @@
 
 <a href="https://asciinema.org/a/ldiiCPjHNCSMgCYrNKAkhw5fH?autoplay=1" target="_blank"><img src="https://asciinema.org/a/ldiiCPjHNCSMgCYrNKAkhw5fH.svg" /></a>
 
-## brain-progression Игра "Арифметическая прогрессия"
+<a name="brain-progression"></a>
+## Игра "Арифметическая прогрессия"
 #### В данной игре Вам необходимо определить пропущенное число арифметической прогрессии
 `Арифметическая прогрессия - последовательность чисел (членов прогрессии), в которой каждое число, начиная со второго, получается из предыдущего добавлением к нему постоянного числа. (шага, или разности прогрессии)`
 #### Запустить игру можно из консоли, набрав brain-progression
@@ -55,7 +64,8 @@
 
 <a href="https://asciinema.org/a/Fle18ccQuiuK0xRYsFGZ47fIk?autoplay=1" target="_blank"><img src="https://asciinema.org/a/Fle18ccQuiuK0xRYsFGZ47fIk.svg" /></a>
 
-## brain-prime Игра "Простое ли число?"
+<a name="brain-prime"></a>
+## Игра "Простое ли число?"
 #### В данной игре Вам необходимо определить является ли число простым или нет
 `Простое число - натуральное (целое положительное) число, имеющее ровно два различных натуральных делителя — единицу и самого себя`
 #### Запустить игру можно из консоли, набрав brain-prime
