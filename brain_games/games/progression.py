@@ -1,27 +1,25 @@
-from random import choices
+from random import randint
 from brain_games.flow import flow_game
 
 case = "What number is missing in the progression?"
-length = 10
+
+progression_length = 10
 
 
-def generate_sequence_items():
-    start, step, cut = choices(range(1, length), k=3)
-    end = start + (length * step)
-    sequence = list(range(start, end, step))
-    return sequence, cut - 1
-
-
-def get_progression_items(sequence, cut):
-    correct_answer = sequence.pop(cut)
-    sequence.insert(cut, "..")
-    progression = " ".join([str(i) for i in sequence])
-    return progression, correct_answer
+def get_progression(start, step, progression_length):
+    end = start + (progression_length * step)
+    progression = list(range(start, end, step))
+    return progression
 
 
 def get_quiz():
-    sequence, cut = generate_sequence_items()
-    question, answer = get_progression_items(sequence, cut)
+    start = randint(1, 100)
+    step = randint(1, 10)
+    miss_item_index = randint(1, progression_length - 1)
+    progression = get_progression(start, step, progression_length)
+    answer = progression.pop(miss_item_index)
+    progression.insert(miss_item_index, "..")
+    question = " ".join([str(i) for i in progression])
     return question, str(answer)
 
 
