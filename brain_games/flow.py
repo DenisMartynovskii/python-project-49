@@ -20,5 +20,6 @@ def flow_game(get_quiz, case):
                     user_answer, correct_answer
                 )
             )
-            return print("Let's try again, {}!".format(user_name))
-        print("Congratulations, {}!".format(user_name))
+            print("Let's try again, {}!".format(user_name))
+            return
+    print("Congratulations, {}!".format(user_name))
