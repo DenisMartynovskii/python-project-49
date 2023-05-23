@@ -1,16 +1,10 @@
-#!/usr/bin/env python3
-#import sys
-#from cli import welcome_user
+from brain_games import cli
 
 
 def main():
-    print('Welcome to the Brain Games!')
+    print(f'Welcome to the Brain Games!')
+    cli.run()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
-
-
-#sys.path.insert(0, '/home/adduser/project/brain_games')
-
-#welcome_user('qwe')
