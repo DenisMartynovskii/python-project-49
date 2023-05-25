@@ -13,10 +13,10 @@ def main():
             print(f'Correct! \nCongratulations, {name}!')
         elif number % 2 == 0 and answer == 'no':
             print(f"'no' is wrong answer ;(. Correct answer was 'yes'."
-                  f"\nLet's try again, {name}")
+                  f"\nLet's try again, {name}!")
         else:
             print(f"'yes' is wrong answer ;(. Correct answer was 'no'."
-                  f"\nLet's try again, {name}")
+                  f"\nLet's try again, {name}!")
 
     def correct(answer):
         print('correct')
@@ -29,10 +29,10 @@ def main():
             return correct_1('no')
         elif number % 2 == 0 and answer == 'no':
             print(f"'no' is wrong answer ;(. Correct answer was 'yes'."
-                  f"\nLet's try again, {name}")
+                  f"\nLet's try again, {name}!")
         else:
             print(f"'yes' is wrong answer ;(. Correct answer was 'no'."
-                  f"\nLet's try again, {name}")
+                  f"\nLet's try again, {name}!")
     print('Welcome to the Brain Games!')
     name = ''
     while name == '':
@@ -49,7 +49,7 @@ def main():
         return correct('no')
     elif number % 2 == 0 and answer == 'no':
         print(f"'no' is wrong answer ;(. Correct answer was 'yes'."
-              f"\nLet's try again, {name}")
+              f"\nLet's try again, {name}!")
     else:
         print(f"'yes' is wrong answer ;(. Correct answer was 'no'."
               f"\nLet's try again, {name}!")
