@@ -8,16 +8,16 @@ def main():
         print('correct!')
         number = randint(0, 10)
         number_1 = randint(0, 10)
-        arithmetic = ['+', '-', '*', '/']
+        arithmetic = ['+', '-', '*']
         arithm = choice(arithmetic)
         if arithm == '+':
-            print(f'Question: {number} + {number_1}')
+            print(f'Question: {number} {arithm} {number_1}')
             result = number + number_1
         if arithm == '-':
-            print(f'Question: {number} - {number_1}')
+            print(f'Question: {number} {arithm} {number_1}')
             result = number - number_1
         if arithm == '*':
-            print(f'Question: {number} * {number_1}')
+            print(f'Question: {number} {arithm} {number_1}')
             result = number * number_1
         answer = int(input('Your answer: '))
         if answer == result:
@@ -30,16 +30,16 @@ def main():
         print('correct!')
         number = randint(0, 10)
         number_1 = randint(0, 10)
-        arithmetic = ['+', '-', '*', '/']
+        arithmetic = ['+', '-', '*']
         arithm = choice(arithmetic)
         if arithm == '+':
-            print(f'Question: {number} + {number_1}')
+            print(f'Question: {number} {arithm} {number_1}')
             result = number + number_1
         if arithm == '-':
-            print(f'Question: {number} - {number_1}')
+            print(f'Question: {number} {arithm} {number_1}')
             result = number - number_1
         if arithm == '*':
-            print(f'Question: {number} * {number_1}')
+            print(f'Question: {number} {arithm} {number_1}')
             result = number * number_1
         answer = int(input('Your answer: '))
         if answer == result:
@@ -56,16 +56,16 @@ def main():
     print('What is the result of the expression?')
     number = randint(0, 10)
     number_1 = randint(0, 10)
-    arithmetic = ['+', '-', '*', '/']
+    arithmetic = ['+', '-', '*']
     arithm = choice(arithmetic)
     if arithm == '+':
-        print(f'Question: {number} + {number_1}')
+        print(f'Question: {number} {arithm} {number_1}')
         result = number + number_1
     if arithm == '-':
-        print(f'Question: {number} - {number_1}')
+        print(f'Question: {number} {arithm} {number_1}')
         result = number - number_1
     if arithm == '*':
-        print(f'Question: {number} * {number_1}')
+        print(f'Question: {number} {arithm} {number_1}')
         result = number * number_1
     answer = int(input('Your answer: '))
     if answer == result:
