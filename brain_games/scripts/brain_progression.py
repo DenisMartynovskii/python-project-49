@@ -14,7 +14,7 @@ def main():
         result = progression.pop(miss_item_index)
         progression.insert(miss_item_index, "..")
         question = " ".join([str(i) for i in progression])
-        print(question)
+        print(f'Question: {question}')
         answer = int(input('Your answer: '))
         if answer == result:
             print(f'Correct! \nCongratulations, {name}!')
@@ -33,7 +33,7 @@ def main():
         result = progression.pop(miss_item_index)
         progression.insert(miss_item_index, "..")
         question = " ".join([str(i) for i in progression])
-        print(question)
+        print(f'Question: {question}')
         answer = int(input('Your answer: '))
         if answer == result:
             return correct_1('answer')
@@ -56,7 +56,7 @@ def main():
     result = progression.pop(miss_item_index)
     progression.insert(miss_item_index, "..")
     question = " ".join([str(i) for i in progression])
-    print(question)
+    print(f'Question: {question}')
     answer = int(input('Your answer: '))
     if answer == result:
         return correct('answer')
