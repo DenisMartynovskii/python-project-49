@@ -5,8 +5,8 @@ def main():
     def correct_1(answer):
         print('correct!')
         num = randint(1, 100)
-        prime = num > 1 and (num % 2 != 0 or num == 2) and (
-                            num % 3 != 0 or num == 3)
+        prime = num > 1 and (
+            num % 2 != 0 or num == 2) and (num % 3 != 0 or num == 3)
         i = 5
         d = 2
         while prime and i * i <= num:
@@ -29,8 +29,8 @@ def main():
     def correct(answer):
         print('correct!')
         num = randint(1, 100)
-        prime = num > 1 and (num % 2 != 0 or num == 2) and (
-                            num % 3 != 0 or num == 3)
+        prime = num > 1 and (
+            num % 2 != 0 or num == 2) and (num % 3 != 0 or num == 3)
         i = 5
         d = 2
         while prime and i * i <= num:
@@ -57,8 +57,8 @@ def main():
     print(f'Hello, {name}!')
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     num = randint(1, 100)
-    prime = num > 1 and (num % 2 != 0 or num == 2) and (
-                        num % 3 != 0 or num == 3)
+    prime = num > 1 and (
+        num % 2 != 0 or num == 2) and (num % 3 != 0 or num == 3)
     i = 5
     d = 2
     while prime and i * i <= num:
