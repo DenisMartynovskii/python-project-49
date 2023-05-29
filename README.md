@@ -1,7 +1,13 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/DenisMartynovskii/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/DenisMartynovskii/python-project-49/actions)
-https://asciinema.org/a/v9gq5IA5hkP6mjYvj4KDBKgJP
-https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6
-https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6
-https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6
-https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6
+
+В данной игре Вам необходимо определить пропущенное число арифметической прогрессии
+Арифметическая прогрессия - последовательность чисел (членов прогрессии), в которой каждое число, начиная со второго, получается из предыдущего добавлением к нему постоянного числа. (шага, или разности прогрессии)
+
+Запустить игру можно из консоли, набрав brain-progression
+                                 Правила игры:
+В начале игры Вам необходимо ввести свое имя, после чего начнется игра и на экране появится вопрос
+Необходимо ввести пропущенное число арифметической прогрессии
+Игра считается пройденной если Вы правильно ответили 3 раза подряд
+В случае если вы ввели неправильный ответ, то игра завершается.
+
+<a href="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6"><img src="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6.png" width="836"/></a>
+
