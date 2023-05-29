@@ -3,9 +3,8 @@ from scripts.greet import greet
 
 count = 3
 
-
 def main():
-    greet():
+    greet()
     for i in range(count):
         print('Answer "yes" if the number is even, otherwise answer "no".')
         number = randint(1, 1000)
@@ -24,6 +23,3 @@ def main():
                   f"\nLet's try again, {name}!")
             return
     print(f'Congratulations, {name}!')
-
-
-def greet():
