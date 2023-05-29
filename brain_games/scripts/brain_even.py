@@ -1,5 +1,5 @@
 from random import randint
-import promt
+import prompt
 
 count = 3
 
