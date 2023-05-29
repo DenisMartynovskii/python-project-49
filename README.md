@@ -11,7 +11,7 @@
 Игра считается пройденной если Вы правильно ответили 3 раза подряд
 В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6"><img src="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6.png" width="836"/></a>
+https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6
 
 
 Игра: "Проверка на четность"
@@ -27,7 +27,7 @@
 Игра считается пройденной если Вы правильно ответили 3 раза подряд
 В случае если вы ввели неправильный ответ, то игра завершается.
 
-[![asciicast](https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6.png)](https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6)
+https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6
 
 
 Игра "Калькулятор"
@@ -41,7 +41,7 @@
 Игра считается пройденной если Вы правильно ответили 3 раза подряд
 В случае если вы ввели неправильный ответ, то игра завершается.
 
-<script src="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6.js" id="asciicast-14" async></script>
+https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6
 
 
 Игра "НОД"
