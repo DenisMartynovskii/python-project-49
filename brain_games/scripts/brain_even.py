@@ -1,7 +1,9 @@
 from random import randint
 import prompt
 
+
 count = 3
+
 
 def main():
     print('Welcome to the Brain Games!')
