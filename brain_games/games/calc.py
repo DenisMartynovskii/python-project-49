@@ -19,7 +19,7 @@ def calculated_expression(num_1, num_2, sign):
 def get_quiz():
     num1, num2 = choices(range(1, 30), k=2)
     answer = calculated_expression(num1, num2, sign)
-    question = "{} {} {}".format(num1, sign, num2)
+    question = f"{num1} {sign} {num2}"
     return question, str(answer)
 
 
