@@ -24,7 +24,7 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6?autoplay=1" target="_blank"><img src="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6.svg" width="800" height="450" /></a>
+<a href="https://asciinema.org/a/588264" target="_blank"><img src="https://asciinema.org/a/588264.svg" /></a>
 
 [вернуться к списку игр](#list_of_games)
 <a name="brain-calc"></a>
@@ -38,7 +38,7 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6?autoplay=1" target="_blank"><img src="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6.svg" width="800" height="450"  /></a>
+<a href="https://asciinema.org/a/585994" target="_blank"><img src="https://asciinema.org/a/585994.svg" /></a>
 
 [вернуться к списку игр](#list_of_games)
 
@@ -55,7 +55,7 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6?autoplay=1" target="_blank"><img src="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6.svg" width="800" height="450" /></a>
+<a href="https://asciinema.org/a/586354" target="_blank"><img src="https://asciinema.org/a/586354.svg" /></a>
 
 [вернуться к списку игр](#list_of_games)
 
@@ -72,7 +72,7 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6?autoplay=1" target="_blank"><img src="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6.svg" width="800" height="450" /></a>
+<a href="https://asciinema.org/a/586772" target="_blank"><img src="https://asciinema.org/a/586772.svg" /></a>
 
 
 [вернуться к списку игр](#list_of_games)
@@ -90,4 +90,4 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6?autoplay=1" target="_blank"><img src="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6.svg" width="800" height="450"/></a>
+<a href="https://asciinema.org/a/586802" target="_blank"><img src="https://asciinema.org/a/586802.svg" /></a>
