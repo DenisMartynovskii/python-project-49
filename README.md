@@ -24,7 +24,7 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/a/588264" target="_blank"><img src="https://asciinema.org/a/588264.svg" /></a>
+<a href="https://asciinema.org/a/585956" target="_blank"><img src="https://asciinema.org/a/585956.svg" /></a>
 
 [вернуться к списку игр](#list_of_games)
 <a name="brain-calc"></a>
