@@ -2,7 +2,7 @@ from brain_games import cli
 
 
 def main():
-    print(cli.greeting)
+    print("Welcome to the Brain Games!")
     cli.run()
 
 

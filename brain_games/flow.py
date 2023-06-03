@@ -5,7 +5,7 @@ tries_count = 3
 
 def flow_game(get_quiz, case):
     print("Welcome to the Brain Games!")
-    print(case, end="\n\n")
+    print(case)
     user_name = prompt.string("May I have your name? ")
     print("Hello, {}!".format(user_name))
     for i in range(tries_count):

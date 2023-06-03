@@ -1,17 +1,17 @@
-all: install 
-
-
 install:
-	@poetry install
+	poetry install
 
+brain-games:
+	poetry run brain-games
 
-run:
-	@poetry run brain-games
+build:
+	poetry build
 
-lint: 
-	@poetry run flake8 brain_games
+publish:
+	poetry publish --dry-run
 
-format:
-	@black brain_games
+package-install:
+	python3 -m pip install --user dist/*.whl
 
-.PHONY: all configure test lint selfcheck check build install
+lint:
+	poetry run flake8 brain_games

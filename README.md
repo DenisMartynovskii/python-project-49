@@ -1,14 +1,6 @@
-<a href="https://codeclimate.com/github/Nikolaytk87/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/d4c57b302dd9b020950b/maintainability" /></a>
-
-[![Build Status](https://travis-ci.org/Nikolaytk87/python-project-lvl1.svg?branch=master)](https://travis-ci.org/Nikolaytk87/python-project-lvl1)
-
-<a name="list_of_games"></a>
 
 # Набор мини-игр, запускаемых из консоли:
 
-Установить пакет мини-игр можно следующей командой: 
-
-`pip install -i https://test.pypi.org/simple/ nikolaytk87-brain-games --extra-index-url https://pypi.org/simple/`  
 
 [Игра: "Проверка на четность"](#brain-even)
 
@@ -32,7 +24,7 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2?t=8?autoplay=1" target="_blank"><img src="https://asciinema.org/a/xSkmoIYETsvz3ylECZEYVBFu2.svg" width="800" height="450" /></a>
+<a href="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6?autoplay=1" target="_blank"><img src="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6.svg" width="800" height="450" /></a>
 
 [вернуться к списку игр](#list_of_games)
 <a name="brain-calc"></a>
@@ -46,7 +38,7 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u?autoplay=1" target="_blank"><img src="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u.svg" width="800" height="450"  /></a>
+<a href="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6?autoplay=1" target="_blank"><img src="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6.svg" width="800" height="450"  /></a>
 
 [вернуться к списку игр](#list_of_games)
 
@@ -63,7 +55,7 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/a/ldiiCPjHNCSMgCYrNKAkhw5fH?autoplay=1" target="_blank"><img src="https://asciinema.org/a/ldiiCPjHNCSMgCYrNKAkhw5fH.svg" width="800" height="450" /></a>
+<a href="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6?autoplay=1" target="_blank"><img src="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6.svg" width="800" height="450" /></a>
 
 [вернуться к списку игр](#list_of_games)
 
@@ -80,7 +72,7 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/a/Fle18ccQuiuK0xRYsFGZ47fIk?autoplay=1" target="_blank"><img src="https://asciinema.org/a/Fle18ccQuiuK0xRYsFGZ47fIk.svg" width="800" height="450" /></a>
+<a href="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6?autoplay=1" target="_blank"><img src="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6.svg" width="800" height="450" /></a>
 
 
 [вернуться к списку игр](#list_of_games)
@@ -98,4 +90,4 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/a/eHesJrToRnwljO799KJ7G9Xtv?autoplay=1" target="_blank"><img src="https://asciinema.org/a/eHesJrToRnwljO799KJ7G9Xtv.svg" width="800" height="450"/></a>
+<a href="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6?autoplay=1" target="_blank"><img src="https://asciinema.org/connect/04cc64b4-b0e2-44df-aa6e-e20794805eb6.svg" width="800" height="450"/></a>
