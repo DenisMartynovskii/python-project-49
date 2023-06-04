@@ -1,7 +1,7 @@
 import prompt
 
 
-def flow_game(get_quiz, case):
+def flow_game(get_quiz, CASE):
     print("Welcome to the Brain Games!")
     print(case)
     user_name = prompt.string("May I have your name? ")
