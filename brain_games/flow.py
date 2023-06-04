@@ -1,12 +1,11 @@
 import prompt
 
-tries_count = 3
-
 
 def flow_game(get_quiz, case):
     print("Welcome to the Brain Games!")
     print(case)
     user_name = prompt.string("May I have your name? ")
+    tries_count = 3
     print("Hello, {}!".format(user_name))
     for i in range(tries_count):
         question, correct_answer = get_quiz()
