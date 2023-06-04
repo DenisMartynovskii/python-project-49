@@ -1,7 +1,7 @@
 from random import choice, choices
 from brain_games.flow import flow_game
 
-case = "What is the result of the expression?"
+CASE = "What is the result of the expression?"
 
 sign = choice(["+", "-", "*"])
 
@@ -24,4 +24,4 @@ def get_quiz():
 
 
 def run_game():
-    flow_game(get_quiz, case)
+    flow_game(get_quiz, CASE)
