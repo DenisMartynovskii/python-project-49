@@ -1,7 +1,7 @@
 from random import randint
 from brain_games.flow import flow_game
 
-case = 'Answer "yes" if the number is even, otherwise answer "no".'
+CASE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(number):
@@ -15,4 +15,4 @@ def get_quiz():
 
 
 def run_game():
-    flow_game(get_quiz, case)
+    flow_game(get_quiz, CASE)
