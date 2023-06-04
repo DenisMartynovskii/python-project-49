@@ -1,7 +1,7 @@
 from random import choices
 from brain_games.flow import flow_game
 
-case = "Find the greatest common divisor of given numbers."
+CASE = "Find the greatest common divisor of given numbers."
 
 
 def get_gcd(num1, num2):
