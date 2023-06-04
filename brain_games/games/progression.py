@@ -1,7 +1,7 @@
 from random import randint
 from brain_games.flow import flow_game
 
-case = "What number is missing in the progression?"
+CASE = "What number is missing in the progression?"
 
 progression_length = 10
 
