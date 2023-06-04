@@ -1,7 +1,7 @@
 from random import randint
 from brain_games.flow import flow_game
 
-CASE = "What number is missing in the progression?"
+QUIZ = "What number is missing in the progression?"
 
 progression_length = 10
 
@@ -13,6 +13,7 @@ def get_progression(start, step, progression_length):
 
 
 def get_quiz():
+    print(QUIZ)
     start = randint(1, 100)
     step = randint(1, 10)
     miss_item_index = randint(1, progression_length - 1)
@@ -24,4 +25,4 @@ def get_quiz():
 
 
 def run_game():
-    flow_game(get_quiz, case)
+    flow_game(get_quiz)
