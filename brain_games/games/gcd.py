@@ -1,7 +1,7 @@
 from random import choices
 from brain_games.flow import flow_game
 
-CASE = "Find the greatest common divisor of given numbers."
+QUIZ = "Find the greatest common divisor of given numbers."
 
 
 def get_gcd(num1, num2):
@@ -14,6 +14,7 @@ def get_gcd(num1, num2):
 
 
 def get_quiz():
+    print(QUIZ)
     num1, num2 = choices(range(1, 30), k=2)
     question = f"{num1} {num2}"
     answer = get_gcd(num1, num2)
@@ -21,4 +22,4 @@ def get_quiz():
 
 
 def run_game():
-    flow_game(get_quiz, case)
+    flow_game(get_quiz)
