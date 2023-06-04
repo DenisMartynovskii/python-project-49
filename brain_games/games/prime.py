@@ -1,7 +1,7 @@
 from random import randrange
 from brain_games.flow import flow_game
 
-CASE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+QUIZ = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):
@@ -15,10 +15,11 @@ def is_prime(num):
 
 
 def get_quiz():
+    print(QUIZ)
     question = randrange(1, 60, 2)
     answer = "yes" if is_prime(question) else "no"
     return question, answer
 
 
 def run_game():
-    flow_game(get_quiz, case)
+    flow_game(get_quiz)
