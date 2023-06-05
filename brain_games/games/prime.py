@@ -19,7 +19,3 @@ def get_quiz():
     question = randrange(1, 60, 2)
     answer = "yes" if is_prime(question) else "no"
     return question, answer
-
-
-def run_game():
-    flow_game(get_quiz)
