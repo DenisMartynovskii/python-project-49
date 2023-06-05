@@ -1,5 +1,4 @@
 from random import randint
-from brain_games.flow import flow_game
 
 QUIZ = 'Answer "yes" if the number is even, otherwise answer "no".'
 
