@@ -1,5 +1,6 @@
 from random import randint
 
+
 QUIZ = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
