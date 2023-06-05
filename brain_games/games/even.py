@@ -15,5 +15,5 @@ def get_quiz():
     return question, answer
 
 
-def run_game():
+def main():
     flow_game(get_quiz)
