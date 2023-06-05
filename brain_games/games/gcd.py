@@ -1,5 +1,5 @@
 from random import choices
-from brain_games.flow import flow_game
+
 
 QUIZ = "Find the greatest common divisor of given numbers."
 
