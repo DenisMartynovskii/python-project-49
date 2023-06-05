@@ -1,5 +1,5 @@
 from random import randint
-from brain_games.flow import flow_game
+
 
 QUIZ = "What number is missing in the progression?"
 
