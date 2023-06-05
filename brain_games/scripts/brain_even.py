@@ -3,7 +3,7 @@ from brain_games.flow import flow_game
 
 
 def main():
-    flow_game(even)
+    even.flow_game(even)
 
 
 if __name__ == "__name__":
