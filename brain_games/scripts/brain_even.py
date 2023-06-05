@@ -1,8 +1,9 @@
-from brain_games.games import even
+from brain_games.flow import flow_game
+from brain_games.games.even import get_quiz
 
 
 def main():
-    even.run_game()
+    flow_game(get_quiz)
 
 
 if __name__ == "__name__":
