@@ -1,6 +1,5 @@
 from random import choice, choices
-from brain_games.flow import flow_game
-from brain_games.games import calc
+
 
 QUIZ = "What is the result of the expression?"
 
@@ -23,7 +22,3 @@ def get_quiz():
     answer = calculated_expression(num1, num2, sign)
     question = f"{num1} {sign} {num2}"
     return question, str(answer)
-
-
-def main():
-    flow_game(calc)
