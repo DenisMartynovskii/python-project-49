@@ -1,5 +1,5 @@
 from random import randrange
-from brain_games.flow import flow_game
+
 
 QUIZ = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
