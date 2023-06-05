@@ -22,7 +22,3 @@ def get_quiz():
     progression.insert(miss_item_index, "..")
     question = " ".join([str(i) for i in progression])
     return question, str(answer)
-
-
-def run_game():
-    flow_game(get_quiz)
